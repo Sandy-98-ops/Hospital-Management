@@ -1,0 +1,99 @@
+/* login.component.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+.login-card {
+    border-radius: 20px;
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 13%, rgba(223, 159, 247, 0.8) 93%);
+    /* max-width: 400px; */
+}
+
+
+.login-div {
+    text-align: right;
+    float: right;
+    width: fit-content;
+}
+
+.heading-div {
+    padding-right: 20vw;
+    font-size: 0.6in;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    color: rgb(242, 112, 156);
+}
+
+.mat-card-header {
+    display: flex;
+    justify-content: center;
+    /* Center the content horizontally */
+    align-items: right;
+    /* Center the content vertically */
+    height: auto;
+    /* Auto height adjustment */
+    padding-bottom: 10px;
+}
+
+mat-form-field {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+mat-card-actions {
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+
+mat-card-actions button {
+    margin-left: 20px   ; /* Adjust the value as needed */
+  }
+  
+
+.login-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('D:/Projects/Hospital-Management/files/Login-page.jpeg');
+    background-size: cover;
+    filter: blur(5px);
+    /* Optional: Add blur effect to the background */
+}
+
+.login-div {
+    z-index: 1;
+    /* Ensure login form appears above the background image */
+}
+
+/* Add any additional styling as needed */
+
+.forgot-password {
+    color: blue; /* Change color to your preference */
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: none; /* Remove underline on hover if desired */
+  }
+  
